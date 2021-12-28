@@ -68,6 +68,10 @@ footer {
   transform: scaleY(1.3);
 }
 
+.topnav {
+  display: none;
+}
+
 .brochure-box {
   display: flex;
   align-items: center;
@@ -112,10 +116,138 @@ footer {
 }
 /* Header CSS Ends Here  */
 
+/* Main Starts Here  */
+/* Carousel / Slider  */
+.carousel-inner {
+  height: 615px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 70%;
+}
+/* Carousel / Slider  */
+
+/* Admission & Update Section CSS Starts  */
+.adm-update-container {
+  background-image: url(../asset/admission-background.png);
+  border: 1px solid blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.adm-update-square {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 25px 0 75px;
+}
+
+.admission-marquee-box {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+
+.admission-box {
+  width: 50%;
+  background-color: #f44336;
+  width: 71%;
+  padding: 10px 15px;
+}
+
+.admission-box h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.category-update-box {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.category-box {
+  width: 62%;
+}
+
+.category-box h1 {
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #fa394a;
+  font-weight: 600;
+}
+
+.category-box h2 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.category-box p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #636363;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.category-box a {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+  padding: 15px 17px;
+  border: 1px solid red;
+  text-decoration: none;
+  display: inline-block;
+  width: 125px;
+}
+
+.update-box {
+  width: 31%;
+  z-index: 10;
+}
+
+.update-box h3 {
+  text-transform: uppercase;
+  background: #0d99e0;
+  color: #fff;
+  padding: 15px 55px;
+  font-size: 22px;
+  border-radius: 4px;
+  margin-top: 36px;
+}
+
+.update-1 {
+  border: 1px solid #ececec;
+  background: #f8fafb;
+}
+
+.update-1 h2 {
+  text-align: center;
+  font-weight: 500;
+  transform: scaleY(1.2);
+}
+
+.update-1 ul li {
+  margin-left: 60px;
+}
+/* Admission & Update Section CSS Ends */
+
+/* Main Ends Here  */
+
 /* Mobile Media Queries Starts Here */
 @media only screen and (max-device-width: 480px) {
   .header-container {
     width: 100%;
+  }
+
+  .header-box1 {
+    padding: 0;
+    border-top: 4px solid red;
+    position: relative;
   }
 
   .brochure-box {
@@ -124,6 +256,8 @@ footer {
 
   .logo-box {
     gap: 0;
+    padding: 10px;
+    align-items: center;
   }
 
   .logo img {
@@ -132,7 +266,7 @@ footer {
   }
 
   .heading h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .heading p {
@@ -142,5 +276,39 @@ footer {
   .header-box2 {
     display: none;
   }
+
+  /* Hembergar menu CSS Starts Here  */
+  .topnav {
+    display: inherit;
+    /* overflow: hidden; */
+    /* position: relative; */
+    margin-left: 10px;
+  }
+
+  .topnav #myLinks {
+    display: none;
+    position: absolute;
+    background-color: grey;
+    left: 0;
+    top: 97px;
+    width: 100%;
+  }
+
+  .topnav a {
+    color: white;
+    padding: 6px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    text-transform: uppercase;
+  }
+
+  .topnav a.icon {
+    background: black;
+    display: inline-block;
+    background: red;
+    height: 46px;
+  }
+  /* Hembergar menu CSS Ends Here  */
 }
 /* Mobile Media Queries Ends Here */
