@@ -130,8 +130,7 @@ footer {
 
 /* Admission & Update Section CSS Starts  */
 .adm-update-container {
-  background-image: url(../asset/admission-background.png);
-  border: 1px solid blue;
+  background-image: url(../asset/admission-background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -146,7 +145,6 @@ footer {
 }
 
 .admission-marquee-box {
-  border: 1px solid red;
   display: flex;
   align-items: center;
 }
@@ -165,7 +163,6 @@ footer {
 }
 
 .category-update-box {
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
 }
@@ -236,6 +233,274 @@ footer {
 }
 /* Admission & Update Section CSS Ends */
 
+/* Join IMT Section CSS Starts Here  */
+.join-imt {
+  background-image: url(../asset/join-imt.jpeg);
+  background-repeat: no-repeat;
+  height: 410px;
+  background-size: cover;
+  display: flex;
+}
+
+.reason-container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reason-container > h3 {
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: end;
+  font-weight: 600;
+  transform: scaleX(0.8);
+  width: 232px;
+}
+
+.heading-box {
+  width: 835px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.headings {
+  width: 415px;
+  display: flex;
+  padding: 15px 15px 23px;
+  border-bottom: 1px solid #257aa9;
+  gap: 10px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+
+.headings:hover {
+  box-shadow: 0px 5px 25px rgb(0 0 0 / 35%);
+}
+
+.headings span {
+  font-size: 40px;
+  color: #fff;
+  transform: scaleY(1.2);
+  line-height: 1;
+}
+
+.headings a {
+  color: #fff;
+  text-decoration: none;
+}
+/* Join IMT Section CSS Ends Here  */
+
+/* The Institute Section CSS Starts Here  */
+.institute-container {
+  padding: 40px 0 50px;
+}
+
+.institute-box {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.institute-para-box {
+  position: relative;
+}
+
+.institute-para-box:before {
+  width: 70px;
+  height: 3px;
+  content: "";
+  background: #0d99e0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -21px;
+  margin: auto;
+  z-index: 99;
+}
+
+.institute-para-box:after {
+  width: 270px;
+  height: 1px;
+  content: "";
+  background: #e1e1e1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  margin: auto;
+}
+
+.institute-para-box h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  transform: scaleY(1.3);
+}
+
+.institute-para-box p {
+  text-align: center;
+}
+
+.institute-image-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ins-image-box {
+  width: 360px;
+}
+
+.ins-image-box h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0 0;
+  padding: 0 20px;
+}
+
+.ins-image-box p {
+  color: #848282;
+  margin: 0;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 20px;
+}
+/* The Institute Section CSS Ends Here  */
+
+/* Academic Courses Section CSS Starts Here  */
+.academic-container {
+  background-image: url(../asset/academic-courses-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 0 0;
+}
+
+.academic-box {
+  width: 1170px;
+  display: flex;
+  margin: auto;
+}
+
+.academic-box img {
+  padding: 0 15px;
+}
+
+.courses-offered {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.courses-offered h2 {
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  transform: scaleY(1.2);
+  padding: 15px 0 0 12px;
+}
+
+.courses-name {
+  display: flex;
+  display: flex;
+  padding: 12px 20px;
+  border-top: 1px solid #cecece;
+}
+
+.genderless-icon {
+  padding: 0 15px;
+}
+
+.genderless-icon .fa-2x {
+  color: #0d99e0;
+}
+
+.courses h3 {
+  font-size: 19px;
+  transform: scaleY(1.2);
+}
+
+.courses p {
+  font-size: 15px;
+  color: #4a4a4a;
+}
+/* Academic Courses Section CSS Ends Here */
+
+/* Students testimonial CSS Starts Here  */
+.testimonial-container {
+  padding: 60px 0 20px;
+}
+
+.testimonial-box {
+  width: 1170px;
+  margin: auto;
+  border: 1px solid red;
+  padding: 0 15px;
+}
+
+.testimonial-heading {
+  margin-bottom: 60px;
+}
+
+.testimonial-heading h2 {
+  font-size: 28px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-heading p {
+  color: #4a4a4a;
+  margin: 0 265px;
+  text-align: center;
+}
+
+.testimonial-images {
+  display: flex;
+  gap: 30px;
+}
+
+.test-image {
+  padding: 60px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px !important;
+  background-color: #f9fbfc;
+  border: 1px solid #efefef !important;
+  width: 262px;
+}
+
+.test-image img {
+  width: 130px;
+  height: 130px;
+  border-radius: 70px;
+}
+
+.test-image h3 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+  margin: 65px 0 10px;
+}
+
+.test-image span {
+  font-size: 14px;
+  color: #585858 !important;
+  padding: 0 12px;
+  text-align: center;
+}
+
+.test-image p {
+  text-align: justify !important;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 30px;
+}
+/* Students testimonial CSS Ends Here */
 /* Main Ends Here  */
 
 /* Mobile Media Queries Starts Here */
