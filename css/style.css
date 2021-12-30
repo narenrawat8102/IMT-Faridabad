@@ -400,6 +400,20 @@ footer {
   margin-bottom: 20px;
   transform: scaleY(1.2);
   padding: 15px 0 0 12px;
+  position: relative;
+}
+
+.courses-offered h2:before {
+  width: 3px;
+  height: 29px;
+  content: "";
+  background: #0d99e0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: -21px;
+  margin: auto;
+  z-index: 99;
 }
 
 .courses-name {
@@ -430,7 +444,7 @@ footer {
 
 /* Students testimonial CSS Starts Here  */
 .testimonial-container {
-  padding: 60px 0 20px;
+  padding: 60px 0 40px;
 }
 
 .testimonial-box {
@@ -449,6 +463,29 @@ footer {
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.testimonial-heading h2:before {
+  width: 35%;
+  height: 1px;
+  content: "";
+  background: #d0d0d0;
+  position: absolute;
+  left: 0;
+  top: 19px;
+  z-index: 99;
+}
+
+.testimonial-heading h2:after {
+  width: 35%;
+  height: 1px;
+  content: "";
+  background: #d0d0d0;
+  position: absolute;
+  right: 0;
+  top: 19px;
+  z-index: 99;
 }
 
 .testimonial-heading p {
@@ -502,6 +539,23 @@ footer {
 }
 /* Students testimonial CSS Ends Here */
 /* Main Ends Here  */
+
+/* Footer CSS Starts Here  */
+.footer-menu {
+  background: #0d99e0 !important;
+}
+
+.footer-menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer-menu ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* Footer CSS Ends Here  */
 
 /* Mobile Media Queries Starts Here */
 @media only screen and (max-device-width: 480px) {
